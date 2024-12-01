@@ -18,7 +18,7 @@ int main() {
     do {
         cout << "Enter your guess: ";
         cin >> guess;
-        tries++; // Increment the number of tries
+        tries++; // Increment the number of tries you've made
 
         if (guess > randomNumber) {
             cout << "Too high! Try again.\n\n";
